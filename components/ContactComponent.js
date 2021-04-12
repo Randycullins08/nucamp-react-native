@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { ScrollView } from "react-native-gesture-handler";
+import { ScrollView } from "react-native";
 import { Card } from "react-native-elements";
 import { Text } from "react-native";
 
