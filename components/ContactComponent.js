@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import { ScrollView } from "react-native";
+import { ScrollView, Text } from "react-native";
 import { Card, Button, Icon } from "react-native-elements";
-import { Text } from "react-native";
 import * as Animatable from "react-native-animatable";
 import * as MailComposer from "expo-mail-composer";
 
@@ -14,7 +13,7 @@ class Contact extends Component {
     MailComposer.composeAsync({
       recipients: ["campsites@nucamp.co"],
       subject: "Inquiry",
-      body: "To whome it may concern:",
+      body: "To whom it may concern:",
     });
   }
 
